@@ -1,7 +1,7 @@
 {
   "name": "shadnext",
   "version": "1.0.4",
-  "description": "A powerful CLI tool to quickly scaffold Next.js applications with shadcn/ui components pre-configured",
+  "description": "A powerful CLI tool that simplifies the process of scaffolding Next.js applications with shadcn/ui pre-configured components. It's designed to save developers' time and effort, allowing them to quickly jumpstart their projects.",
   "main": "bin/cli.js",
   "type": "module",
   "bin": {
