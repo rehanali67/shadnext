@@ -1,0 +1,55 @@
+{
+  "name": "shadnext",
+  "version": "1.0.4",
+  "description": "A powerful CLI tool to quickly scaffold Next.js applications with shadcn/ui components pre-configured",
+  "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+    "shadnext": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "shadcn",
+    "cli",
+    "scaffold",
+    "react",
+    "typescript",
+    "tailwind",
+    "ui",
+    "components",
+    "starter",
+    "template"
+  ],
+  "author": {
+    "name": "Rehan Ali",
+    "url": "https://github.com/rehanali67"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehanali67/shadnext.git"
+  },
+  "homepage": "https://github.com/rehanali67/shadnext#readme",
+  "bugs": {
+    "url": "https://github.com/rehanali67/shadnext/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.1.0",
+    "execa": "^5.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
